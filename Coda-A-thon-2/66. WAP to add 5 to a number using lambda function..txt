@@ -1,0 +1,5 @@
+# 66. WAP to add 5 to a number using lambda function. 
+
+num = int(input())
+add = lambda a: num+a
+print(add(5))

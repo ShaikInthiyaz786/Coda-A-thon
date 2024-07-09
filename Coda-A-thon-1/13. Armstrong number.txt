@@ -1,0 +1,12 @@
+# 13. Armstrong number
+
+a = input()
+length=len(a)
+sum=0
+
+for i in range(length):
+    sum=sum+(int(a[i])**length)
+if int(a)==sum:
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")

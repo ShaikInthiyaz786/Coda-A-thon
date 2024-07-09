@@ -1,0 +1,9 @@
+# 5. Greatest of two numbers
+
+a = int(input())
+b = int(input())
+
+if a>b:
+    print("'a' is Greatest")
+else:
+    print("'b' is Greatest")

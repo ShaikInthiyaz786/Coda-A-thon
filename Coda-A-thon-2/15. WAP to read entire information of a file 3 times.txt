@@ -1,0 +1,5 @@
+# 15. WAP to read entire information of a file 3 times.
+
+f = open("filename.txt", "r")
+print(f.read()*3)
+f.close()

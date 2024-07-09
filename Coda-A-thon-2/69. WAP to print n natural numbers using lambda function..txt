@@ -1,0 +1,7 @@
+# 69. WAP to print n natural numbers using lambda function.
+
+x = lambda x: [i for i in range(1, x+1)]
+    
+a = int(input())
+
+print(x(a))

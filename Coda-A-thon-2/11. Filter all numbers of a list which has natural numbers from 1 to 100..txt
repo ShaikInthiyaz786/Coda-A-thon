@@ -1,0 +1,12 @@
+# 11. Filter all numbers of a list which has natural numbers from 1 to 100.
+
+def one_to_hun(n):
+    n = int(n)
+    if n>0 and n <= 100:
+        return n
+
+
+num = input().split(" ")
+a = list(filter(one_to_hun, num))
+
+print(a)

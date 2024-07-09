@@ -1,0 +1,21 @@
+''' 39. Sudha went to her grandmother’s village. There is a palm. In the palm
+some goats and hens are present. Sudha counted their eyes the count is
+60. Sudha counted their legs the count is 84. Sudha wants to find number
+of goats and hens in that palm.'''
+
+def countGoats(heads, legs):
+    # x + y = heads
+    # 2x + 4y = legs
+    count = 0
+    count = (legs) - (2*heads)
+    count = count / 2
+    return count
+
+
+eyes = int(input()) # 60
+heads = eyes/2
+legs = int(input()) # 84
+
+goats = countGoats(heads, legs)
+print("goats =", goats)
+print("hens =", heads - goats)

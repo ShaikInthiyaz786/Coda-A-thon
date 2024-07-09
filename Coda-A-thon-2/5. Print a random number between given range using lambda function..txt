@@ -1,0 +1,8 @@
+# 5. Print a random number between given range using lambda function.
+import random
+
+k = lambda x, y : random.randint(x, y)
+    
+a = int(input())
+b = int(input())
+print(k(a,b))

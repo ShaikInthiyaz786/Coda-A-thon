@@ -1,0 +1,7 @@
+# 75. WAP to print 5 random numbers between 20 to 30 using lambda function.
+
+import random
+
+k = lambda x, y : random.randint(x, y)
+for i in range(5):
+    print(k(20,30))

@@ -1,0 +1,14 @@
+# 70. Filter all palindrome words of a string. 
+
+def palindrome(word):
+    lst = ""
+    for i in word:
+        lst = i + lst
+    
+    if lst == word:
+        return lst
+
+
+string = input().split(", ")   
+a = list(filter(palindrome, string))
+print(a)

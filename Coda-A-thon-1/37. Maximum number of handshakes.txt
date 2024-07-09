@@ -1,0 +1,6 @@
+# 37. Maximum number of handshakes
+
+n = int(input())
+
+shake = (n*(n-1))//2
+print(shake)

@@ -1,0 +1,9 @@
+# 31. WAP to handle index error.
+
+try:  
+    test_list = [1, 2, 3, 4]
+    print(test_list[4]) 
+except IndexError:  
+    print("Index Error") 
+except:  
+    print("Unhandled Exception")

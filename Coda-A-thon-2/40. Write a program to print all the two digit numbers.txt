@@ -1,0 +1,14 @@
+''' 40. Write a program to print all the two digit numbers, where the second digit
+is smaller than its first by 4 , and if the number was divided by the digits
+sum , the quotient would be 7.'''
+
+# first_Digit = x
+# second_Digit = x-4
+# number = 10x + x - 4
+
+# (11*x-4 )/ (2*x-4) = 7
+x = 24 / 3
+
+print(x)
+print(x-4)
+print(10*x + x - 4)

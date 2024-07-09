@@ -1,0 +1,6 @@
+# 18. Power of a number
+
+num = int(input())
+power = int(input())
+
+print(num**power)

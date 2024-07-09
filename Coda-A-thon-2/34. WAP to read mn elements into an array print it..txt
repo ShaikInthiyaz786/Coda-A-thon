@@ -1,0 +1,13 @@
+# 34. WAP to read m*n elements into an array print it.
+
+x=int(input())
+y= int(input())
+list1=[]
+sublist=[]
+for i in range(x):
+    for j in range(y):
+        sublist.append(input())
+    list1.append(sublist)
+    sublist=[]
+print (list1)
+	

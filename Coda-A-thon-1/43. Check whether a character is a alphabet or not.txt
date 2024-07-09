@@ -1,0 +1,8 @@
+# 43. Check whether a character is a alphabet or not
+
+ch = input()
+
+if 'a' <= ch <= 'z' or 'A' <= ch <= 'Z':
+    print("The  character", ch, "is an Alphabet")
+else:
+    print("The  character", ch, "is not an Alphabet")

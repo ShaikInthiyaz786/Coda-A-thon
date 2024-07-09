@@ -1,0 +1,5 @@
+# 73. Convert a text array to int array using map().
+
+a = input().split(" ")
+b = list(map(int, a))
+print(b)

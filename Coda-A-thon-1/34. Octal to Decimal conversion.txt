@@ -1,0 +1,10 @@
+# 34. Octal to Decimal conversion 
+
+b_num = list(input())
+value = 0
+
+for i in range(len(b_num)):
+	digit = b_num.pop()
+	value += int(digit)*pow(8, i)
+
+print(value)

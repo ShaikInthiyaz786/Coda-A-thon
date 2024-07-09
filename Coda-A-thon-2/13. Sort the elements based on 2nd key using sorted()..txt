@@ -1,0 +1,14 @@
+# 13. Sort the elements based on 2nd key using sorted().
+
+
+def Sort(sub_li):
+
+    return sorted(sub_li, key = lambda x: x[1])   
+  
+
+
+sub_li =[['rishav', 10], ['akash', 5], ['ram', 3], ['gaurav', 1]]
+print(Sort(sub_li))
+
+
+

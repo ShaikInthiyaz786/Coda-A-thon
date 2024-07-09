@@ -1,0 +1,6 @@
+# 7. Convert a text int array using map().
+
+string = input()
+result = list(map(int, string))
+
+print(result)

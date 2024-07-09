@@ -1,0 +1,6 @@
+''' 38.Rita has money in her pouch. The pouch has equal number of 25paise
+coins,50 paise coins and one rupee coins. The total amount is RS.700.
+Write a program to find how many of each is there.'''
+
+x = 700 / (0.25+0.50+1)
+print("No.of each coin : " + str(int(x)))

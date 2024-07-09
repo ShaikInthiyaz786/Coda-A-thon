@@ -1,0 +1,10 @@
+# 60. Array rotation
+
+a = list(map(int, input().split(",")))
+num = int(input())
+
+rotate = num%len(a)
+index_1 = a[rotate:]
+index_2 = a[:rotate]
+result = index_1+index_2
+print(result)

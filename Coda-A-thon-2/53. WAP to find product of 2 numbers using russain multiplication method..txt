@@ -1,0 +1,11 @@
+# 53. WAP to find product of 2 numbers using russain multiplication method.
+
+a = int(input())
+b = int(input())
+result = 0
+while a > 0:
+    if a%2 != 0:
+	    result += b
+    b *= 2
+    a = a // 2
+print(result) 

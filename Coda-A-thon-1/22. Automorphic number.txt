@@ -1,0 +1,11 @@
+# 22. Automorphic number
+
+a = int(input())
+b = a*a
+l = len(str(a))
+end = int(str(b)[-l::])
+
+if(a == end):
+    print(a,"is an automorphic")
+else:
+    print(a,"is not an automorphic")

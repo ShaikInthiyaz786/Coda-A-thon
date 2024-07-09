@@ -1,0 +1,4 @@
+# 11. Reverse of a number
+
+a = input()
+print(a[::-1])

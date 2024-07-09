@@ -1,0 +1,35 @@
+# 67. Mean , mode and median of  a list of numbers
+
+import statistics
+ 
+data = [220, 100, 190, 180, 250, 190, 240, 180, 140, 180, 190]
+
+print("Mean: ", statistics.mean(data))
+print("Median: ", statistics.median(data))
+print("Single Mode: ", statistics.mode(data))
+print("Mode: ", statistics.multimode(data))
+
+
+
+
+
+#Other Method for Mean
+num_list = [21, 11, 19, 3,11,5]
+num_sum = sum(num_list)
+mean = num_sum / len(num_list)
+print(num_list)
+print("Mean of the above list of numbers is: " + str(round(mean,2)))
+
+
+
+# Other Method for Median
+num_list = [21, 13, 19, 3,11,5]
+num_list.sort()
+if len(num_list) % 2 == 0:
+   first_median = num_list[len(num_list) // 2]
+   second_median = num_list[len(num_list) // 2 - 1]
+   median = (first_median + second_median) / 2
+else:
+   median = num_list[len(num_list) // 2]
+print(num_list)
+print("Median of above list is: " + str(median))

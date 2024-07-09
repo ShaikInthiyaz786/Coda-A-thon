@@ -1,0 +1,16 @@
+'''43. Two painters came for paint the windows of 101 ,first person starts
+painting from window 1. He started painting alternative windows i.e.,
+1,3,5…. Second person starts painting from window 101. Whereas the
+other person started painting by leaving windows respectively i.e.,
+101,98,95. In this case find out the common point where these painters
+will meet.'''
+
+a = 1
+b = 101
+meet = True
+while meet:
+    a = a + 2
+    b = b - 3
+    if a == b:
+        print("Painters meet at : " + str(a))
+        meet = False

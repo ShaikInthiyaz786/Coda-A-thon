@@ -1,0 +1,8 @@
+# 56. Print all the letters of a string diving by “,”.
+
+a = "abcd"
+for i in a:
+    if i == a[-1]:
+        print(i, end="")
+    else:    
+        print(i, end=",")

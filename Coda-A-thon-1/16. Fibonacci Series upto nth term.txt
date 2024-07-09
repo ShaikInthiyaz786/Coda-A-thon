@@ -1,0 +1,26 @@
+# 16. Fibonacci Series upto nth term
+
+n = int(input())
+a = 0
+b = 1
+sum = 0
+
+while(sum <= n):
+    print(sum, end = " ")
+    a = b
+    b = sum
+    sum = a + b
+    
+    
+# 16. List of Fibonacci Series
+
+def fibonacci(n):
+    if n<=1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+
+n = int(input())
+for i in range(n):
+    print(fibonacci(i), end=" ")    
+    

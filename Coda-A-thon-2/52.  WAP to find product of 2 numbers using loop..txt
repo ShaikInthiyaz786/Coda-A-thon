@@ -1,0 +1,10 @@
+# 52. WAP to find product of 2 numbers using loop.
+
+a = int(input())
+b = int(input())
+multi = 0
+
+for i in range(b):
+    multi += a
+
+print(multi)    

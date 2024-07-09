@@ -1,0 +1,12 @@
+# 33. WAP to handle multiple except blocks. 
+
+
+try:  
+    a = int(input())  
+    b = int(input())  
+    c = a/b
+    print(c)  
+except (ZeroDivisionError, ValueError):  
+    print("Denominator can't be 0 (or) Value Error ")  
+except:  
+    print("Unhandled Exception")

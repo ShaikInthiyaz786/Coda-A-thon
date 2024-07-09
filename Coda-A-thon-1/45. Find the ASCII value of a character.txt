@@ -1,0 +1,4 @@
+# 45. Find the ASCII value of a character
+ 
+a = input()
+print(ord(a))

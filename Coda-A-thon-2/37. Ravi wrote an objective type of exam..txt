@@ -1,0 +1,15 @@
+'''37. Ravi wrote an objective type of exam. The total number of questions is 20.
+He attempted all the questions. For each right answer he will get 3 marks.
+For each wrong answer he will lose 1 mark. Ravi got 40 marks in that exam.
+Ravi wanted to know how many correct answers and wrong answers. He
+requested your help.'''
+
+# x + y = attem
+# 3x - y = marks
+attem = 20
+marks = 40
+x = (marks + attem) /4
+y = attem-x
+
+print("No.of correct : " + str(int(x)))
+print("No.of wrong : " + str(int(y)))

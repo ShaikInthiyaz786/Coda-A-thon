@@ -1,0 +1,15 @@
+# 20. Strong number
+
+a = input()
+sum = 0
+
+for i in a:
+    multi = 1
+    for j in range(1, int(i)+1):
+        multi *= j
+    sum += multi
+
+if sum == int(a):
+    print("Strong Number")
+else:
+    print("Not Strong Number")

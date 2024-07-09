@@ -1,0 +1,11 @@
+# 14. Neon number
+
+a = int(input())
+sqr = a*a
+sum = 0
+for i in (str(sqr)):
+    sum += int(i)
+if sum == a:
+    print("Neon number")
+else:
+    print("Non Neon")

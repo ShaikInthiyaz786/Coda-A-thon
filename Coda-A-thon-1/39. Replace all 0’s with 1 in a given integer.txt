@@ -1,0 +1,5 @@
+# 39. Replace all 0’s with 1 in a given integer
+
+Val = input()
+Replaced = Val.replace('0','1')
+print(Replaced)

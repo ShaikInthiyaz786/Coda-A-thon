@@ -1,0 +1,10 @@
+# 54. Count no of vowels in a given word
+
+l = input()
+count = 0
+
+for i in l:
+    if i in ("aeiouAEIOU"):
+        count += 1
+
+print(count)

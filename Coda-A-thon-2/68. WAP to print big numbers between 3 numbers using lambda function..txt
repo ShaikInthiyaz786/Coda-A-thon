@@ -1,0 +1,8 @@
+# 68. WAP to print big numbers between 3 numbers using lambda function.
+
+k = lambda x, y, z : max(x, y, z)
+    
+a = int(input())
+b = int(input())
+c = int(input())
+print(k(a,b,c))

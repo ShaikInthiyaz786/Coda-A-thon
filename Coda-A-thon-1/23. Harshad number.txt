@@ -1,0 +1,11 @@
+# 23. Harshad number
+
+a = input()
+sum = 0
+
+for i in a:
+    sum += int(i)
+if int(a)%sum == 0:
+    print("Harshad number")
+else:
+    print("Not Harshad number")

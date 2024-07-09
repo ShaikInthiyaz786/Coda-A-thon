@@ -1,0 +1,4 @@
+# 61. Find nth largest number in a list
+
+a = list(map(int, input().split(",")))
+print(max(a))

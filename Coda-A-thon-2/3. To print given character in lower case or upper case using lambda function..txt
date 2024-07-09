@@ -1,0 +1,5 @@
+# 3. To print given character in lower case or upper case using lambda function.
+
+chr = lambda a : "upper" if a.isupper() else "lower"
+
+print(chr(input()))

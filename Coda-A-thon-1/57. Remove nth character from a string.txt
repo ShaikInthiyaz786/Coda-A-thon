@@ -1,0 +1,10 @@
+# 57. Remove nth character from a string
+
+def removechar(str1, n):
+	x = str1[ : n]
+	y = str1[n + 1: ]
+	return x + y
+
+str1 = input()
+n = int(input())
+print(removechar(str1, n))

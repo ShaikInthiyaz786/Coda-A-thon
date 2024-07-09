@@ -1,0 +1,9 @@
+# 49. WAP to read character print whether it is vowels or consonants using short hand if else.
+
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+
+a = input()
+if a in vowels:
+    print("vowels")
+else:
+    print("consonants")

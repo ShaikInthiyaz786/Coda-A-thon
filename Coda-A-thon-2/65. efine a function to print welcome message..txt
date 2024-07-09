@@ -1,0 +1,6 @@
+# 65. define a function to print welcome message.
+
+def msg():
+    return "welcome message"
+
+print(msg())

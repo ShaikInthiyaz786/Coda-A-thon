@@ -1,0 +1,10 @@
+# 32. WAP to handle name error. 
+
+
+try:  
+    name = "John"
+    print(age) 
+except NameError:  
+    print("Name Error") 
+except:  
+    print("Unhandled Exception")

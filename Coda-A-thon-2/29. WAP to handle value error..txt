@@ -1,0 +1,11 @@
+# 29. WAP to handle value error. 
+
+try:  
+    a = int(input())  
+    b = int(input())  
+    c = a/b
+    print(c)  
+except ValueError:  
+    print("Value Error") 
+except:  
+    print("Unhandled Exception")

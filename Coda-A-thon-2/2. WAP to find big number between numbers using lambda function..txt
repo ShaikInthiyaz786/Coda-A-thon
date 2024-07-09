@@ -1,0 +1,7 @@
+# 2. WAP to find big number between numbers using lambda function.
+
+big = lambda a, b : max(a,b)
+
+a = int(input())
+b = int(input())
+print(big(a,b))

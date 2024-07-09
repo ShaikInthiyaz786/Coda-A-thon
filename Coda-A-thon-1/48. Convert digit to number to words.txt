@@ -1,0 +1,4 @@
+# 48. Convert digit to number to words
+
+num = int(input())
+print(chr(num))

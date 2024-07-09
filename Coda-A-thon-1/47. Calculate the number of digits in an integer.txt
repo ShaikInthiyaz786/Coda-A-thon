@@ -1,0 +1,4 @@
+# 47. Calculate the number of digits in an integer
+
+num = input()
+print(len(num))

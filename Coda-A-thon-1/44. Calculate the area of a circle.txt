@@ -1,0 +1,6 @@
+# 44. Calculate the area of a circle
+ 
+Radius = float(input())  
+pi = 3.14 
+area_of_the_circle = pi * Radius * Radius  
+print (area_of_the_circle) 

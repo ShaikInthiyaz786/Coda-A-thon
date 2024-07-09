@@ -1,0 +1,7 @@
+# 78. WAP to read a list of village names. Print all the village names those begin with ‘v’.
+
+a = input().split(" ")
+
+for i in a:
+    if (i[0] == "v") or (i[0] == "V"):
+        print(i)

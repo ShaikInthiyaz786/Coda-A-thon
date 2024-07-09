@@ -1,0 +1,7 @@
+# 71. Print odd numbers of a list which has natural numbers from 1 to 100.
+
+lst = []
+for i in range(1, 101):
+    if i%2 != 0:
+        lst.append(i)
+print(lst)    

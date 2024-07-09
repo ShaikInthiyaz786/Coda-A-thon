@@ -1,0 +1,7 @@
+# 57. Print index values of an array of size 10.
+
+a = [1, 4, 5, 6, 7]
+
+for i in range(len(a)):
+    print (i, end = " ")
+    print (a[i])

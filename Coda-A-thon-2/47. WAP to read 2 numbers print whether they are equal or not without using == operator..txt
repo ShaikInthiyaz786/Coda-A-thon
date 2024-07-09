@@ -1,0 +1,9 @@
+# 47. WAP to read 2 numbers print whether they are equal or not without using == operator.
+
+a = int(input())
+b = int(input())
+
+if (a ^ b):
+    print("Not Same")
+else:
+    print("Same")

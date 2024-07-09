@@ -1,0 +1,6 @@
+# 50. Finding Number of times x digit occurs in a given input
+
+num = input()
+digit = input()
+
+print(num.count(digit))

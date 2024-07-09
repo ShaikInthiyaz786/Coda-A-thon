@@ -1,0 +1,5 @@
+# 14. WAP to read entire information of a file.
+
+f = open("filename.txt", "r")
+print(f.read())
+f.close()

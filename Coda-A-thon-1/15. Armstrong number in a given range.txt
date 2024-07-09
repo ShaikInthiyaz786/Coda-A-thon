@@ -1,0 +1,15 @@
+# 15. Armstrong number in a given range
+
+a = int(input())
+b = int(input())
+
+for i in range(a, b+1):
+    l = len(str(i))
+    sum = 0
+    
+    for j in str(i):
+        sum += int(j)**l
+        
+    if sum == int(i):
+        print(i)
+    

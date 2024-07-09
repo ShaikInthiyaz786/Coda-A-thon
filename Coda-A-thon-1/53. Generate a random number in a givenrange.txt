@@ -1,0 +1,5 @@
+# 53. Generate a random number in a givenrange
+
+import random
+random_integer = random.randint(1, 10)
+print(random_integer)

@@ -1,0 +1,9 @@
+# 72. Convert a lower case string to upper case string using map(). 
+
+def lower_to_upper(string):
+    string = string.upper()
+    return string
+
+string = input().split( )
+lst = list(map(lower_to_upper, string))
+print(lst)

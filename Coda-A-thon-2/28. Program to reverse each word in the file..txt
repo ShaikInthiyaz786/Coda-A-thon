@@ -1,0 +1,8 @@
+# 28. Program to reverse each word in the file.
+
+with open("filename.txt", "r") as myfile:
+    data = myfile.read()
+
+data_1 = data[::-1]
+  
+print(data_1)

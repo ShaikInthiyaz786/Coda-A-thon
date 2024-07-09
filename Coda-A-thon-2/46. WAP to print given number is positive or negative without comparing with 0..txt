@@ -1,0 +1,32 @@
+# 46. WAP to print given number is positive or negative without comparing with 0.
+
+a = int(input())
+
+if abs(a) == a:
+    print("Positive")
+else:
+    print("Negative")
+
+
+
+'''
+a = int(input())
+
+if a >= 1:
+    print("Positive")
+elif (int(a) < 1) and (int(a) > -1):
+    print("Zero")
+else:
+    print("Negative")'''
+
+
+
+'''
+a = input()
+
+if(a.startswith("-")):
+    print("Negative")
+elif (int(a) < 1) and (int(a) > -1):
+    print("Zero")
+else:
+    print("Positive")'''
